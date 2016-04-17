@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576DC3D71CC38D84009A0207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 576DC3D61CC38D83009A0207 /* main.m */; };
+		576DC3DA1CC38D84009A0207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 576DC3D91CC38D84009A0207 /* AppDelegate.m */; };
+		576DC3DD1CC38D84009A0207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576DC3DC1CC38D84009A0207 /* ViewController.m */; };
+		576DC3E01CC38D84009A0207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576DC3DE1CC38D84009A0207 /* Main.storyboard */; };
+		576DC3E21CC38D84009A0207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576DC3E11CC38D84009A0207 /* Assets.xcassets */; };
+		576DC3E51CC38D84009A0207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576DC3E31CC38D84009A0207 /* LaunchScreen.storyboard */; };
+		576DC3F01CC38D84009A0207 /* UIlabel____AutoLayout_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576DC3EF1CC38D84009A0207 /* UIlabel____AutoLayout_Tests.m */; };
+		576DC3FB1CC38D84009A0207 /* UIlabel____AutoLayout_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576DC3FA1CC38D84009A0207 /* UIlabel____AutoLayout_UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		576DC3EC1CC38D84009A0207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576DC3CA1CC38D83009A0207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576DC3D11CC38D83009A0207;
+			remoteInfo = "UIlabel的包裹(AutoLayout)";
+		};
+		576DC3F71CC38D84009A0207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576DC3CA1CC38D83009A0207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576DC3D11CC38D83009A0207;
+			remoteInfo = "UIlabel的包裹(AutoLayout)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		576DC3D21CC38D83009A0207 /* UIlabel的包裹(AutoLayout).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIlabel的包裹(AutoLayout).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576DC3D61CC38D83009A0207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		576DC3D81CC38D84009A0207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		576DC3D91CC38D84009A0207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		576DC3DB1CC38D84009A0207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		576DC3DC1CC38D84009A0207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		576DC3DF1CC38D84009A0207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		576DC3E11CC38D84009A0207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		576DC3E41CC38D84009A0207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		576DC3E61CC38D84009A0207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576DC3EB1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIlabel的包裹(AutoLayout)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576DC3EF1CC38D84009A0207 /* UIlabel____AutoLayout_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIlabel____AutoLayout_Tests.m"; sourceTree = "<group>"; };
+		576DC3F11CC38D84009A0207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576DC3F61CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIlabel的包裹(AutoLayout)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576DC3FA1CC38D84009A0207 /* UIlabel____AutoLayout_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIlabel____AutoLayout_UITests.m"; sourceTree = "<group>"; };
+		576DC3FC1CC38D84009A0207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		576DC3CF1CC38D83009A0207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3E81CC38D84009A0207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3F31CC38D84009A0207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576DC3C91CC38D83009A0207 = {
+			isa = PBXGroup;
+			children = (
+				576DC3D41CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */,
+				576DC3EE1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests */,
+				576DC3F91CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests */,
+				576DC3D31CC38D83009A0207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		576DC3D31CC38D83009A0207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				576DC3D21CC38D83009A0207 /* UIlabel的包裹(AutoLayout).app */,
+				576DC3EB1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests.xctest */,
+				576DC3F61CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		576DC3D41CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */ = {
+			isa = PBXGroup;
+			children = (
+				576DC3D81CC38D84009A0207 /* AppDelegate.h */,
+				576DC3D91CC38D84009A0207 /* AppDelegate.m */,
+				576DC3DB1CC38D84009A0207 /* ViewController.h */,
+				576DC3DC1CC38D84009A0207 /* ViewController.m */,
+				576DC3DE1CC38D84009A0207 /* Main.storyboard */,
+				576DC3E11CC38D84009A0207 /* Assets.xcassets */,
+				576DC3E31CC38D84009A0207 /* LaunchScreen.storyboard */,
+				576DC3E61CC38D84009A0207 /* Info.plist */,
+				576DC3D51CC38D83009A0207 /* Supporting Files */,
+			);
+			path = "UIlabel的包裹(AutoLayout)";
+			sourceTree = "<group>";
+		};
+		576DC3D51CC38D83009A0207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				576DC3D61CC38D83009A0207 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576DC3EE1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				576DC3EF1CC38D84009A0207 /* UIlabel____AutoLayout_Tests.m */,
+				576DC3F11CC38D84009A0207 /* Info.plist */,
+			);
+			path = "UIlabel的包裹(AutoLayout)Tests";
+			sourceTree = "<group>";
+		};
+		576DC3F91CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				576DC3FA1CC38D84009A0207 /* UIlabel____AutoLayout_UITests.m */,
+				576DC3FC1CC38D84009A0207 /* Info.plist */,
+			);
+			path = "UIlabel的包裹(AutoLayout)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		576DC3D11CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576DC3FF1CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)" */;
+			buildPhases = (
+				576DC3CE1CC38D83009A0207 /* Sources */,
+				576DC3CF1CC38D83009A0207 /* Frameworks */,
+				576DC3D01CC38D83009A0207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIlabel的包裹(AutoLayout)";
+			productName = "UIlabel的包裹(AutoLayout)";
+			productReference = 576DC3D21CC38D83009A0207 /* UIlabel的包裹(AutoLayout).app */;
+			productType = "com.apple.product-type.application";
+		};
+		576DC3EA1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576DC4021CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)Tests" */;
+			buildPhases = (
+				576DC3E71CC38D84009A0207 /* Sources */,
+				576DC3E81CC38D84009A0207 /* Frameworks */,
+				576DC3E91CC38D84009A0207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576DC3ED1CC38D84009A0207 /* PBXTargetDependency */,
+			);
+			name = "UIlabel的包裹(AutoLayout)Tests";
+			productName = "UIlabel的包裹(AutoLayout)Tests";
+			productReference = 576DC3EB1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		576DC3F51CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576DC4051CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)UITests" */;
+			buildPhases = (
+				576DC3F21CC38D84009A0207 /* Sources */,
+				576DC3F31CC38D84009A0207 /* Frameworks */,
+				576DC3F41CC38D84009A0207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576DC3F81CC38D84009A0207 /* PBXTargetDependency */,
+			);
+			name = "UIlabel的包裹(AutoLayout)UITests";
+			productName = "UIlabel的包裹(AutoLayout)UITests";
+			productReference = 576DC3F61CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		576DC3CA1CC38D83009A0207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tangbing;
+				TargetAttributes = {
+					576DC3D11CC38D83009A0207 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					576DC3EA1CC38D84009A0207 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 576DC3D11CC38D83009A0207;
+					};
+					576DC3F51CC38D84009A0207 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 576DC3D11CC38D83009A0207;
+					};
+				};
+			};
+			buildConfigurationList = 576DC3CD1CC38D83009A0207 /* Build configuration list for PBXProject "UIlabel的包裹(AutoLayout)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 576DC3C91CC38D83009A0207;
+			productRefGroup = 576DC3D31CC38D83009A0207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				576DC3D11CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */,
+				576DC3EA1CC38D84009A0207 /* UIlabel的包裹(AutoLayout)Tests */,
+				576DC3F51CC38D84009A0207 /* UIlabel的包裹(AutoLayout)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		576DC3D01CC38D83009A0207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576DC3E51CC38D84009A0207 /* LaunchScreen.storyboard in Resources */,
+				576DC3E21CC38D84009A0207 /* Assets.xcassets in Resources */,
+				576DC3E01CC38D84009A0207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3E91CC38D84009A0207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3F41CC38D84009A0207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		576DC3CE1CC38D83009A0207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576DC3DD1CC38D84009A0207 /* ViewController.m in Sources */,
+				576DC3DA1CC38D84009A0207 /* AppDelegate.m in Sources */,
+				576DC3D71CC38D84009A0207 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3E71CC38D84009A0207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576DC3F01CC38D84009A0207 /* UIlabel____AutoLayout_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576DC3F21CC38D84009A0207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576DC3FB1CC38D84009A0207 /* UIlabel____AutoLayout_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		576DC3ED1CC38D84009A0207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576DC3D11CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */;
+			targetProxy = 576DC3EC1CC38D84009A0207 /* PBXContainerItemProxy */;
+		};
+		576DC3F81CC38D84009A0207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576DC3D11CC38D83009A0207 /* UIlabel的包裹(AutoLayout) */;
+			targetProxy = 576DC3F71CC38D84009A0207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		576DC3DE1CC38D84009A0207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576DC3DF1CC38D84009A0207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		576DC3E31CC38D84009A0207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576DC3E41CC38D84009A0207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		576DC3FD1CC38D84009A0207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		576DC3FE1CC38D84009A0207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		576DC4001CC38D84009A0207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		576DC4011CC38D84009A0207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		576DC4031CC38D84009A0207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIlabel的包裹(AutoLayout).app/UIlabel的包裹(AutoLayout)";
+			};
+			name = Debug;
+		};
+		576DC4041CC38D84009A0207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIlabel的包裹(AutoLayout).app/UIlabel的包裹(AutoLayout)";
+			};
+			name = Release;
+		};
+		576DC4061CC38D84009A0207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIlabel的包裹(AutoLayout)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		576DC4071CC38D84009A0207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIlabel的包裹(AutoLayout)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aetos.trade.UIlabel----AutoLayout-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIlabel的包裹(AutoLayout)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		576DC3CD1CC38D83009A0207 /* Build configuration list for PBXProject "UIlabel的包裹(AutoLayout)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576DC3FD1CC38D84009A0207 /* Debug */,
+				576DC3FE1CC38D84009A0207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576DC3FF1CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576DC4001CC38D84009A0207 /* Debug */,
+				576DC4011CC38D84009A0207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		576DC4021CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576DC4031CC38D84009A0207 /* Debug */,
+				576DC4041CC38D84009A0207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		576DC4051CC38D84009A0207 /* Build configuration list for PBXNativeTarget "UIlabel的包裹(AutoLayout)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576DC4061CC38D84009A0207 /* Debug */,
+				576DC4071CC38D84009A0207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 576DC3CA1CC38D83009A0207 /* Project object */;
+}
