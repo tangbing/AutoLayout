@@ -6,6 +6,9 @@
 //  Copyright © 2018年 Tb. All rights reserved.
 //
 
+/// 判断字符是否为null
+#define IsStrEmpty(string) (!([string class] == [NSNull class]) && ((![string isKindOfClass:[NSString class]])||[string isEqualToString:@""] || (string == nil)||[string isEqualToString:@"<null>"] || [string isEqualToString:@""] || [string isKindOfClass:[NSNull class]]||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0))
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -24,6 +27,13 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+    NSString *name = @"";
+    if (IsStrEmpty(name)) {
+        NSLog(@"null");
+    } else {
+        NSLog(@" not null");
+
+    }
   
     
     //1.实现lable包裹文字：大于180，换行显示，小于180，完全包裹文字，设置lable的宽度约束最大约束为180
